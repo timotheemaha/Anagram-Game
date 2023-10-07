@@ -1,0 +1,111 @@
+/* Game Title */
+h1 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  
+  h4 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  
+  /* Timer Display */
+  #timer-display {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #666;
+  }
+  
+  /* Anagram */
+  #anagram {
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* adds a 20-pixel space below the element. */
+  }
+  
+  /* Score Display */
+  #score-display {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  /* High Score Display */
+  #high-score-display{
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333; 
+}
+  
+  
+  /* Enter your answer label */
+  #enter-answer {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    margin-bottom: 10px; /* adds a 20-pixel space below the element. */
+  }
+  
+  /* Input text box */
+  .input {
+    text-align: center;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+  }
+  
+  /* Button container */
+  #options {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    color: #090909;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    border: 1px solid white;
+  }
+  
+  button:active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+  
+  /* Centering elements */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #D3D3D3; 
+  }
+  
+  .site-logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .site-logo img {
+    width: 300px;
+    height: auto;
+  }
+  
